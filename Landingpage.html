@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SmartWatch Pro</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .hero {
+            text-align: center;
+            padding: 60px 20px;
+            background-color: #333;
+            color: white;
+        }
+        .hero h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        .description {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        figure {
+            display: inline-block;
+            margin: 20px;
+        }
+        figure img {
+            width: 300px;
+            border-radius: 10px;
+        }
+        figure figcaption {
+            margin-top: 10px;
+            font-style: italic;
+        }
+        .features, .pricing {
+            padding: 40px 20px;
+            text-align: center;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            background: #4CAF50;
+            color: white;
+            margin: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid #4CAF50;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+        .contact-form {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: #333;
+            color: white;
+        }
+        input, textarea {
+            width: 80%;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Chào mừng đến với SmartWatch Pro</h1>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>SmartWatch Pro</h1>
+        <p>Đồng hồ thông minh tiên tiến dành cho phong cách sống hiện đại.</p>
+    </section>
+
+    <!-- Product Description Section -->
+    <section class="description">
+        <h2>Mô tả sản phẩm</h2>
+        <figure>
+            <img src="data:image/jpeg;base64,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" alt="SmartWatch Pro">
+            <figcaption>SmartWatch Pro - Sang trọng và hiện đại</figcaption>
+        </figure>
+        <p>
+            SmartWatch Pro được thiết kế dành riêng cho những ai yêu thích công nghệ, với kiểu dáng sang trọng và tính năng hiện đại. 
+            Sản phẩm này sẽ giúp bạn quản lý thời gian, theo dõi sức khỏe và kết nối với thế giới chỉ bằng một cú chạm.
+        </p>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <h2>Tính năng nổi bật</h2>
+        <ul>
+            <li>Theo dõi sức khỏe toàn diện: đo nhịp tim, đếm bước chân, quản lý giấc ngủ.</li>
+            <li>Kết nối Bluetooth với điện thoại để nhận thông báo cuộc gọi, tin nhắn.</li>
+            <li>Chế độ tập luyện đa dạng: chạy bộ, đạp xe, yoga.</li>
+            <li>Thiết kế chống nước và pin kéo dài lên đến 7 ngày.</li>
+        </ul>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing">
+        <h2>Bảng giá</h2>
+        <table>
+            <tr>
+                <th>Phiên bản</th>
+                <th>Tính năng</th>
+                <th>Giá</th>
+            </tr>
+            <tr>
+                <td>Bản tiêu chuẩn</td>
+                <td>Chế độ tập luyện cơ bản, nhận thông báo</td>
+                <td>3,000,000 VND</td>
+            </tr>
+            <tr>
+                <td>Bản nâng cao</td>
+                <td>Thêm theo dõi sức khỏe, chống nước</td>
+                <td>5,000,000 VND</td>
+            </tr>
+            <tr>
+                <td>Bản chuyên nghiệp</td>
+                <td>Tính năng đầy đủ, pin 7 ngày</td>
+                <td>7,000,000 VND</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-form">
+        <h2>Liên hệ với chúng tôi</h2>
+        <form action="#" method="post">
+            <input type="text" name="name" placeholder="Tên của bạn" required><br>
+            <input type="email" name="email" placeholder="Email của bạn" required><br>
+            <textarea name="message" rows="5" placeholder="Tin nhắn của bạn" required></textarea><br>
+            <button type="submit">Gửi tin nhắn</button>
+        </form>
+    </section>
+
+</body>
+</html>
